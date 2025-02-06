@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/</loc>
+  <priority>1.00</priority>
+  <lastmod>2009-01-30T01:16:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/index.html</loc>
+  <priority>0.80</priority>
+  <lastmod>2009-01-30T01:16:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/projects.html</loc>
+  <priority>0.80</priority>
+  <lastmod>2009-01-30T01:16:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/people.html</loc>
+  <priority>0.80</priority>
+  <lastmod>2009-01-30T11:23:08+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/publications.html</loc>
+  <priority>0.80</priority>
+  <lastmod>2009-01-29T01:09:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/resources.html</loc>
+  <priority>0.80</priority>
+  <lastmod>2009-01-30T01:21:27+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/contact.html</loc>
+  <priority>0.80</priority>
+  <lastmod>2009-01-29T08:02:55+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/events.html</loc>
+  <priority>0.80</priority>
+  <lastmod>2009-01-29T01:04:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/server connection tutorials/Remote Login to hafez.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/synopsys tutorials/Ubuntu_Login_Tutorial.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/server connection tutorials/Ubuntu_Login_Tutorial.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/server connection tutorials/Remote_Connection_to_Hafez_through_VM_Ware.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/synopsys tutorials/Full Custom Design Using Cosmos Tools Complete Manual.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/synopsys tutorials/Cosmos_LE_Setup_Guide.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/synopsys tutorials/CMOS_Inverter_Layout_Using_Comos_LE.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/cadence tutorials/HSPICE Tutorial.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/cadence tutorials/Cadence Virtuso Schematic Editor.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/cadence tutorials/Simulation using Spectre.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/cadence tutorials/Cadence Virtuso Layout Editor.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/cadence tutorials/Verilog Setup Tutorial.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/cadence tutorials/hspice User Manual.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/misc/Necrc mailing label.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/misc/Keeping technology Cool.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://userwww.sfsu.edu/~necrc/files/misc/eCASE09_Presentation_Hamid.pdf</loc>
+  <priority>0.64</priority>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
