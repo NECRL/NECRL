@@ -6,20 +6,35 @@
     <title>Index - NECRL</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/main.css">
+
     <style>
+        /* SFSU Color Palette */
+        :root {
+            --primary-dark-purple: #231161;
+            --primary-medium-purple: #463077;
+            --primary-gold: #C99700;
+            --primary-light-gold: #E9D597;
+            --secondary-blue: #26547C;
+            --secondary-green: #38635A;
+            --secondary-dark-brown: #604C11;
+            --secondary-olive: #6B702B;
+            --secondary-maroon: #933311;
+            --secondary-gray: #53565a;
+        }
+
         body {
             font-family: 'Open Sans', sans-serif;
             background-color: #F9FAFB;
-            color: #333;
+            color: var(--secondary-gray);
             line-height: 1.7;
         }
         header {
-            background-color: #1E3A8A;
+            background-color: var(--primary-dark-purple);
             color: white;
             padding: 12px 0;
         }
         nav a {
-            background-color: #4F8FF7;
+            background-color: var(--secondary-blue);
             color: white;
             padding: 8px 12px;
             border-radius: 6px;
@@ -28,7 +43,8 @@
             transition: background-color 0.3s;
         }
         nav a:hover {
-            background-color: #2563EB;
+            background-color: var(--primary-gold);
+            color: var(--primary-dark-purple);
         }
         section {
             background: white;
@@ -41,11 +57,11 @@
             font-size: 1.5rem;
             font-weight: bold;
             margin-bottom: 10px;
-            border-bottom: 2px solid #1E3A8A;
+            border-bottom: 3px solid var(--primary-gold);
             padding-bottom: 5px;
         }
         .footer {
-            background-color: #2E2E2E;
+            background-color: var(--secondary-gray);
             color: white;
             text-align: center;
             padding: 15px 0;
@@ -75,7 +91,7 @@
             white-space: nowrap;
             overflow: hidden;
             box-sizing: border-box;
-            background-color: #1E3A8A;
+            background-color: var(--primary-medium-purple);
             color: white;
             padding: 10px;
             font-weight: bold;
