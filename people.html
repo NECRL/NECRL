@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People - NECRL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/main.css">
+  <style>
+    /* Apply SFSU Color Palette */
+    :root {
+        --primary-dark-purple: #231161;
+        --primary-medium-purple: #463077;
+        --primary-gold: #C99700;
+        --primary-light-gold: #E9D597;
+        --secondary-blue: #26547C;
+        --secondary-green: #38635A;
+        --secondary-dark-brown: #604C11;
+        --secondary-olive: #6B702B;
+        --secondary-maroon: #933311;
+        --secondary-gray: #53565a;
+    }
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #F9FAFB;
+        color: var(--secondary-gray);
+        line-height: 1.7;
+    }
+
+    header {
+        background-color: var(--primary-dark-purple); /* SFSU Primary Dark Purple */
+        color: white;
+        padding: 12px 0;
+    }
+
+    nav a {
+        background-color: var(--secondary-blue); /* SFSU Secondary Blue */
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: var(--primary-gold); /* SFSU Primary Gold */
+        color: var(--primary-dark-purple);
+    }
+
+    section {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        padding: 20px;
+        margin: 15px 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+        border-bottom: 3px solid var(--primary-gold); /* SFSU Primary Gold */
+        padding-bottom: 5px;
+        color: var(--primary-dark-purple); /* SFSU Primary Dark Purple */
+    }
+
+    .footer {
+        background-color: var(--secondary-gray); /* SFSU Secondary Gray */
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+
+    .people-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+    }
+
+    .people-grid p {
+        background-color: var(--primary-light-gold); /* SFSU Light Gold */
+        padding: 8px;
+        border-radius: 6px;
+        text-align: center;
+        margin: 0;
+        font-weight: bold;
+        color: var(--primary-dark-purple);
+    }
+
+    .director {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .director img {
+        width: 500px;
+        height: 500px;
+        border-radius: 8px;
+        border: 2px solid var(--primary-gold);
+    }
+
+    .director-info p {
+        margin: 12px 0;
+        color: var(--secondary-gray);
+    }
+
+    a {
+        color: var(--secondary-blue);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--primary-gold);
+        text-decoration: underline;
+    }
+</style>
+
+
+<header>
+    <div class="container mx-auto flex justify-between items-center px-4">
+        <div class="text-2xl font-bold">NECRL</div>
+        <nav class="flex space-x-2">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="people.html">People</a>
+            <a href="courses.html">Courses</a>
+            <a href="publications.html">Publications</a>
+            <a href="resources.html">Resources</a>
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container mx-auto py-6 px-4">
+
+    <h1 class="text-3xl font-bold text-center mb-6">Our People</h1>
+
+    <section>
+    <h2>Director</h2>
+    <div class="director">
+        <img src="design/Hamid_1x1.jpg" alt="Dr. Hamid Mahmoodi">
+        <div class="director-info">
+            <p><strong class="text-xl text-primary-dark-purple">Hamid Mahmoodi, Ph.D.</strong></p>
+            <p><strong>Professor & Program Coordinator</strong></p>
+            <p>Department: Electrical and Computer Engineering</p>
+            <p>Institution: San Francisco State University</p>
+
+            <h3 class="mt-3 font-semibold text-primary-dark-purple">🔬 Research Focus:</h3>
+            <ul class="list-disc pl-4">
+                <li>VLSI Design</li>
+                <li>Low-Power & High-Performance Circuit Design</li>
+                <li>Nanoelectronics</li>
+            </ul>
+
+            <h3 class="mt-3 font-semibold text-primary-dark-purple">📚 Publications & Patents:</h3>
+            <ul class="list-disc pl-4">
+                <li>100+ Journal & Conference Papers</li>
+                <li>5 U.S. Patents</li>
+            </ul>
+
+            <h3 class="mt-3 font-semibold text-primary-dark-purple">🏆 Awards:</h3>
+            <ul class="list-disc pl-4">
+                <li>IEEE Best Paper Award</li>
+                <li>SRC Technical Excellence Award</li>
+                <li>NSF Research Grants Recipient</li>
+            </ul>
+
+            <h3 class="mt-3 font-semibold text-primary-dark-purple">💻 Professional Service:</h3>
+            <ul class="list-disc pl-4">
+                <li>Technical Committees: CICC, ISLPED, ISQED</li>
+            </ul>
+
+            <p class="mt-3">As a Program Coordinator, Dr. Mahmoodi is dedicated to advancing engineering education, mentoring students, and fostering industry collaborations to drive innovation in semiconductor and nanoelectronics research.</p>
+
+            <h3 class="mt-3 font-semibold text-primary-dark-purple">📌 Connect:</h3>
+            <ul class="list-disc pl-4">
+                <li>📧 Email: <a href="mailto:mahmoodi@sfsu.edu" class="text-secondary-blue hover:text-primary-gold">mahmoodi@sfsu.edu</a></li>
+                <li>🔗 Website: <a href="http://online.sfsu.edu/~mahmoodi" class="text-secondary-blue hover:text-primary-gold" target="_blank">online.sfsu.edu/~mahmoodi</a></li>
+                <li>📍 Office: SEIC 336, San Francisco State University</li>
+                <li>📞 Phone: (415) 338-6579</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <section>
+        <h2>Graduate Students</h2>
+        <div class="people-grid">
+            <p>Aaron Singh</p>
+            <p>Bisum Singh Tiwana</p>
+            <p>Nick Davidson</p>
+
+
+        </div>
+    </section>
+
+
+
+  <section>
+        <h2>Alumni</h2>
+        <div class="alumni-iframe-container">
+            <p>If the LinkedIn Group does not load, please <a href="https://www.linkedin.com/groups/14606366/" target="_blank" class="text-secondary-blue hover:text-primary-gold">click here to visit the group directly</a>.</p>
+            <iframe src="https://www.linkedin.com/groups/14606366/" title="NECRL Alumni LinkedIn Group" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>&copy; 2025 NECRL - San Francisco State University | All Rights Reserved</p>
+    <p><a href="https://facebook.com" class="text-yellow-300">Follow us on Facebook</a></p>
+</footer>
+
+</body>
+</html>
