@@ -6,55 +6,117 @@
     <title>People - NECRL</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        :root {
-            --primary-dark-purple: #231161;
-            --primary-gold: #C99700;
-            --primary-light-gold: #E9D597;
-            --secondary-gray: #53565a;
-        }
+  <style>
+    /* Apply SFSU Color Palette */
+    :root {
+        --primary-dark-purple: #231161;
+        --primary-medium-purple: #463077;
+        --primary-gold: #C99700;
+        --primary-light-gold: #E9D597;
+        --secondary-blue: #26547C;
+        --secondary-green: #38635A;
+        --secondary-dark-brown: #604C11;
+        --secondary-olive: #6B702B;
+        --secondary-maroon: #933311;
+        --secondary-gray: #53565a;
+    }
 
-        body {
-            font-family: 'Open Sans', sans-serif;
-            background-color: #F9FAFB;
-            color: var(--secondary-gray);
-        }
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #F9FAFB;
+        color: var(--secondary-gray);
+        line-height: 1.7;
+    }
 
-        header {
-            background-color: var(--primary-dark-purple);
-            color: white;
-            padding: 12px 0;
-        }
+    header {
+        background-color: var(--primary-dark-purple); /* SFSU Primary Dark Purple */
+        color: white;
+        padding: 12px 0;
+    }
 
-        .profile {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            margin-bottom: 20px;
-            padding: 20px;
-            border: 2px solid var(--primary-gold);
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
+    nav a {
+        background-color: var(--secondary-blue); /* SFSU Secondary Blue */
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
 
-        .profile img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 3px solid var(--primary-gold);
-        }
+    nav a:hover {
+        background-color: var(--primary-gold); /* SFSU Primary Gold */
+        color: var(--primary-dark-purple);
+    }
 
-        .profile-info {
-            flex: 1;
-        }
+    section {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        padding: 20px;
+        margin: 15px 0;
+    }
 
-        .profile-title {
-            font-size: 22px;
-            font-weight: bold;
-            color: var(--primary-dark-purple);
-        }
-    </style>
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+        border-bottom: 3px solid var(--primary-gold); /* SFSU Primary Gold */
+        padding-bottom: 5px;
+        color: var(--primary-dark-purple); /* SFSU Primary Dark Purple */
+    }
+
+    .footer {
+        background-color: var(--secondary-gray); /* SFSU Secondary Gray */
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+
+    .people-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+    }
+
+    .people-grid p {
+        background-color: var(--primary-light-gold); /* SFSU Light Gold */
+        padding: 8px;
+        border-radius: 6px;
+        text-align: center;
+        margin: 0;
+        font-weight: bold;
+        color: var(--primary-dark-purple);
+    }
+
+    .director {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .director img {
+        width: 500px;
+        height: 500px;
+        border-radius: 8px;
+        border: 2px solid var(--primary-gold);
+    }
+
+    .director-info p {
+        margin: 12px 0;
+        color: var(--secondary-gray);
+    }
+
+    a {
+        color: var(--secondary-blue);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--primary-gold);
+        text-decoration: underline;
+    }
+</style>
 </head>
 <body>
 <header>
@@ -76,9 +138,6 @@
 
 <main class="container mx-auto py-6 px-4">
     <h1 class="text-3xl font-bold text-center mb-6">People</h1>
-<main class="container mx-auto py-6 px-4">
-
-    <h1 class="text-3xl font-bold text-center mb-6"> People</h1>
 <section>
     <h2>Current Student & Alumni</h2>
     <p class="text-center mt-4">
@@ -89,7 +148,7 @@
     </p>
 </section>
     <section>
-    <h2>Director</h2>
+    <h2> Graduate Program Coordinator, Professor of Electrical and Computer Engineering, & Lab Director</h2>
     <div class="director">
         <img src="design/Hamid_1x1.jpg" alt="Dr. Hamid Mahmoodi">
         <div class="director-info">
@@ -142,9 +201,10 @@
             <div class="profile-info">
                 <div class="profile-title">Aaron S</div>
                 <div>Graduate Student Research Assistant</div>
-                <div><strong>Focus:</strong> Artificial Intelligence, Machine Learning, Computer Vision</div>
+                <div><strong>Focus:</strong> AI/ML ,Computer Vision, Embedded Systems, SoC Design, FPGA Prototyping, ASIC Verification, and Signal Processing.</div>
+
                 <div><strong>Programming:</strong> Python, C++, MATLAB, TensorFlow, PyTorch</div>
-                <div><strong>Research Interests:</strong> Deep Learning, Reinforcement Learning, High-Performance Computing</div>
+                <div><strong>Research Interests:</strong> Deep Learning, Reinforcement Learning, High-Performance Computing, AI-driven System Architecture</div>
                 <div><strong>Principal Investigator:</strong> Dr. Hamid Mahmoodi</div>
             </div>
         </div>
