@@ -96,8 +96,8 @@
     }
 
     .director img {
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
         border-radius: 8px;
         border: 2px solid var(--primary-gold);
     }
@@ -105,12 +105,25 @@
     width: 300px;
     height: 300px;
 }
+.student-director {
+    display: flex;
+    align-items: center; /* Align text with the image */
+    gap: 20px; /* Space between image and text */
+}
 
+.student-director img {
+    width: 300px; /* Adjusted size to fit well */
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid var(--primary-gold);
+    object-fit: cover; /* Ensures the image does not stretch */
+}
 
-    .director-info p {
-        margin: 12px 0;
-        color: var(--secondary-gray);
-    }
+.student-director-info {
+    flex: 1; /* Makes the text take up the remaining space */
+    max-width: 700px; /* Prevents the text from stretching too far */
+}
+
 
     a {
         color: var(--secondary-blue);
@@ -199,11 +212,11 @@
         </div>
     </div>
 </section>
-    <section>
+   <section>
     <h2>Graduate Student Research Assistant</h2>
-    <div class="director">
-        <img src="design/aaron.png" alt="Aaron S" class="aaron-img">
-        <div class="director-info">
+    <div class="student-director">
+        <img src="design/aaron.png" alt="Aaron S">
+        <div class="student-director-info">
             <p><strong class="text-xl text-primary-dark-purple">Aaron S</strong></p>
             <p><strong>Graduate Student Research Assistant</strong></p>
             <p><strong>Focus:</strong> AI/ML, Computer Vision, Embedded Systems, SoC Design, FPGA Prototyping, ASIC Verification, and Signal Processing.</p>
@@ -213,6 +226,7 @@
         </div>
     </div>
 </section>
+
 
 </main>
 
